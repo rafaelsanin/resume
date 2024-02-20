@@ -41,6 +41,7 @@ p {
 hr {
     border: none;
     background-color: lightgray;
+    margin: 1em auto;
     height: 1px;
 }
 
