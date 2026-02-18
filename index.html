@@ -1,220 +1,285 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rafael Sanin - AI Engineer and Software Engineer with 4+ years of experience in data pipelines, AI systems, cloud infrastructure, and technical leadership." />
   <link href="style.css" rel="stylesheet" />
-  <title>Rafael Sanin CV</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Rafael Sanin | AI Engineer &amp; Software Engineer</title>
 </head>
 
 <body>
-  <header id="header">
-    <!-- resume header with your name and title -->
-    <h1><b>RAFAEL</b> SANIN</h1>
-    <hr />
-    Software Engineer
-    <hr />
+  <header>
+    <h1>RAFAEL <span>SANIN</span></h1>
+    <h2>AI Engineer | Software Engineer</h2>
+    <div class="contact-bar">
+      <span>Email: <a href="mailto:rsanies9@gmail.com">rsanies9@gmail.com</a></span>
+      <span>Phone: +57 313 575 1313</span>
+      <span>Location: Medell&iacute;n, Antioquia, Colombia</span>
+      <span>LinkedIn: <a href="https://linkedin.com/in/rafaelsanin">linkedin.com/in/rafaelsanin</a></span>
+      <span>GitHub: <a href="https://github.com/rafaelsanin">github.com/rafaelsanin</a></span>
+    </div>
   </header>
+
   <main>
-    <article id="mainLeft">
-      <section>
-        <h2>CONTACT</h2>
-        <!-- contact info including social media -->
+    <!-- ===== PROFESSIONAL SUMMARY ===== -->
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        AI Engineer and Software Engineer with 4+ years of experience building data pipelines,
+        AI-powered agentic systems, and scalable cloud infrastructure. Experienced in ETL workflows,
+        vector databases, LLM-based solutions, and leading cross-functional engineering teams.
+        Skilled in Python, JavaScript, TypeScript, SQL, AWS, GCP, Elasticsearch, and modern AI frameworks. Aspirant of MSc in Engineering.
+      </p>
+    </section>
+
+    <!-- ===== WORK EXPERIENCE ===== -->
+    <section>
+      <h2>Work Experience</h2>
+
+      <!-- NeuralSeek -->
+      <h3>AI Engineer / Tech Lead</h3>
+      <p class="job-meta">NeuralSeek | Jun 2025 - Present</p>
+      <p class="job-summary">
+        Leading AI engineering and data integration initiatives. Responsible for architecture decisions
+        and cross-functional delivery for enterprise clients in financial services, cybersecurity,
+        wellness, and automotive industries.
+      </p>
+      <ul>
+        <li>
+          <strong>Led documentation platform migration</strong> from MkDocs to Wiki.js. Designed a
+          dual-instance approval workflow on <strong>AWS EC2</strong> with <strong>Auth0</strong> authentication,
+          <strong>PostgreSQL</strong> full-text search, and <strong>GitHub</strong>-based CI/CD to enable
+          community-driven contributions with editorial review controls.
+        </li>
+        <li>
+          <strong>Built enterprise integration</strong> between <strong>NICE CXone</strong> contact center
+          platform and NeuralSeek's virtual agent system, implementing multi-turn conversational AI with
+          PII redaction, prompt injection guardrails, and session state management via custom proxy tunnels.
+        </li>
+        <li>
+          <strong>Developed AI-powered demos</strong> using agentic architectures for financial services and
+          cybersecurity clients, leveraging NeuralSeek's orchestration layer and rapid prototyping tools.
+        </li>
+        <li>
+          <strong>Engineered end-to-end data pipeline</strong> for a wellness client: email monitoring,
+          engagement tracking, and application completion tracking with <strong>Elasticsearch</strong> vector
+          database (e5-multilingual embeddings), <strong>Shopify</strong> and <strong>GRIN</strong> API integrations,
+          <strong>Google OAuth</strong> and <strong>Gmail API</strong> for smart email generation, and a real-time
+          analytics dashboard with human-in-the-loop feedback.
+        </li>
+        <li>
+          <strong>Designed multi-architecture agentic systems</strong> for an automotive client on
+          <strong>IBM watsonx</strong> and <strong>Salesforce Agentforce</strong>, implementing both
+          <strong>ReAct</strong> and <strong>observational</strong> agent patterns to handle customer payment
+          inquiries at scale.
+        </li>
+      </ul>
+
+      <!-- Entrepreneur -->
+      <h3>Founder &amp; Software Engineer</h3>
+      <p class="job-meta">Self-Employed | Jan 2025 - Jun 2025</p>
+      <p class="job-summary">
+        Built and launched a soccer-related web application from concept to production.
+      </p>
+      <ul>
+        <li>
+          <strong>Designed, developed, and deployed</strong> a soccer application using <strong>Next.js</strong>
+          and <strong>MongoDB</strong>, managing the full product lifecycle from architecture through production launch.
+        </li>
+        <li>
+          <strong>Managed end-to-end product delivery</strong> including database schema design, API development,
+          frontend implementation, deployment, and user acquisition strategy.
+        </li>
+      </ul>
+
+      <!-- Freelance -->
+      <h3>Freelance Software Engineer</h3>
+      <p class="job-meta">Independent | Aug 2024 - Dec 2024</p>
+      <ul>
+        <li>
+          <strong>Delivered software engineering solutions</strong> for clients, focusing on data-driven web
+          application development, API integrations, and cloud-based systems.
+        </li>
+        <li>
+          <strong>Pursued continuous professional development</strong> through cloud engineering and backend
+          certifications, deepening expertise in AWS, Python, and data engineering best practices.
+        </li>
+      </ul>
+
+      <!-- SoftServe -->
+      <h3>Software Engineer</h3>
+      <p class="job-meta">SoftServe | Sep 2023 - Jul 2024 (10 months)</p>
+      <p class="job-summary">
+        Led search infrastructure and data pipeline improvements for a Real Estate platform,
+        coordinating enhancements across frontend, backend, and microservice layers.
+      </p>
+      <ul>
+        <li>
+          <strong>Engineered search and data pipelines</strong>: Improved search indexing with
+          <strong>Elasticsearch</strong> and <strong>MongoDB Atlas</strong> for complex address matching.
+          Automated data cleansing ETL scripts that processed 10,000+ documents and built duplicate
+          detection logic in the data import microservice.
+        </li>
+        <li>
+          <strong>Led frontend optimization</strong>: Built a <strong>React Redux</strong> state
+          management solution with modal workflows that improved user interaction and error handling.
+        </li>
+        <li>
+          <strong>Optimized microservice data flows</strong>: Updated <strong>GCP Pub/Sub</strong> message
+          schemas for inter-service communication and resolved API pagination issues for integration
+          with <strong>Apigee</strong> API gateway.
+        </li>
+        <li>
+          <strong>Built data manipulation tooling</strong>: Developed custom <strong>Node.js</strong> ETL scripts
+          for data transformation and enrichment. Added event-driven timeline tracking for user engagement analytics.
+        </li>
+      </ul>
+
+      <!-- AllTheRooms -->
+      <h3>Backend Developer</h3>
+      <p class="job-meta">AllTheRooms Inc. | Mar 2021 - Sep 2023 (2 years 7 months)</p>
+      <p class="job-summary">
+        Full-stack and data engineering support for B2C and B2B short term rental data applications.
+      </p>
+      <ul>
+        <li>
+          <strong>Full-stack and data services development</strong>: Built features using
+          <strong>Next.js</strong>, <strong>GraphQL/Apollo</strong>, <strong>Express</strong>, and
+          <strong>Python/FastAPI</strong> for web crawling and data ingestion pipelines. Worked with
+          the data team on crawling services and ETL workflows.
+        </li>
+        <li>
+          <strong>Cloud infrastructure and database engineering</strong>: Managed <strong>AWS</strong>
+          infrastructure with <strong>Terraform</strong> (IaC); designed and maintained <strong>PostgreSQL</strong>
+          database schemas, queries, and migrations.
+        </li>
+        <li>
+          <strong>Payment data integration</strong>: Integrated <strong>Stripe SDK</strong> for subscription
+          management, implementing billing data pipelines for plans, pricing tiers, and promotional codes.
+        </li>
+        <li>
+          <strong>Analytics data instrumentation</strong>: Created a <strong>Node.js</strong> analytics
+          library using decorator patterns to integrate <strong>Segment SDK</strong> tracking across
+          authentication, accounts, and GraphQL services for real-time user behavior data collection.
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <p><strong>Languages &amp; Data Tools:</strong> Python, SQL, JavaScript, TypeScript, NumPy, Pandas</p>
+        <p><strong>AI/ML Frameworks:</strong> LangChain, NeuralSeek NTL, IBM watsonx, Salesforce Agentforce, RAG, Agentic AI</p>
+        <p><strong>Databases:</strong> PostgreSQL, MongoDB, Elasticsearch (vector search)</p>
+        <p><strong>Cloud &amp; Infrastructure:</strong> AWS (EC2, Lambda, CDK, CloudFormation, Cognito, Amplify), GCP (Pub/Sub), Terraform, Docker</p>
+        <p><strong>Data Engineering:</strong> ETL Pipelines, Data Cleansing, API Integration, Elasticsearch Indexing, Data Modeling</p>
+        <p><strong>Web Frameworks:</strong> React, Redux, Next.js, Node.js, Express, Django, FastAPI, GraphQL/Apollo</p>
+        <p><strong>DevOps &amp; CI/CD:</strong> Git, GitHub Actions, Jenkins, Circle CI, Spinnaker</p>
+        <p><strong>Methodologies:</strong> Agile, Scrum, Test-Driven Development</p>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project-entry">
+        <h4>Retrieval Augmented Generation (RAG) AI Agent Chat</h4>
         <p>
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-          <a href="mailto:rsanies9@gmail.com">rsanies9@gmail.com</a>
-        </p>
-        <p>
-          <i class="fab fa-github" aria-hidden="true"></i>
-          <a href="https://github.com/rafaelsanin">rafaelsanin</a>
-        </p>
-        <p>
-          <i class="fab fa-github" aria-hidden="true"></i>
-          <a href="https://github.com/rafasanin">rafasanin (SoftServe)</a>
-        </p>
-        <p>
-          <i class="fab fa-linkedin" aria-hidden="true"></i>
-          <a href="https://linkedin.com/in/rafaelsanin">rafaelsanin</a>
-        </p>
-      </section>
-      <section>
-        <h2>SKILLS</h2>
-        <p>
-          <b>Programming Languages/Technologies: </b>Python, NumPy, Pandas,
-          JavaScript, TypeScript, Node.js, React, Redux, HTML, CSS, Sass, SQL
-        </p>
-        <p><b>RDBMS: </b>PostgreSQL</p>
-        <p><b>NoSQL: </b>MongoDB, Elasticsearch</p>
-        <p><b>Containerization Tools: </b>Docker</p>
-        <p>
-          <b>Methodologies: </b>Agile, Scrum, Test Driven Development, Pair
-          Programming
-        </p>
-        <p>
-          <b>Frameworks/Libraries: </b>Express, Passport, GraphQL, Apollo,
-          Scrapy, FastAPI, Django, Django REST framework
-        </p>
-        <p><b>Cloud Providers: </b>AWS, GCP</p>
-        <p>
-          <b>Development Tools: </b>Git, GitHub Actions, Circle CI, Jenkins,
-          Spinnaker, Visual Studio Code, Terraform
-        </p>
-        <p><b>Testing Tools: </b>Postman</p>
-      </section>
-      <section>
-        <h2>EDUCATION</h2>
-        <!-- your education -->
-        <b>Aspirant of MSc. in Engineering</b>
-        <p>Eafit University (scholarship)</p>
-        <p>2018-2020</p>
-        <b>Mechanical Engineering</b>
-        <p>Eafit University</p>
-        <p>2011-2016</p>
-      </section>
-      <section>
-        <h2>COURSE/CERTIFICATIONS</h2>
-        <!-- your courses/certifications -->
-        <b><a href="https://ude.my/UC-20c48e7a-7011-44eb-9fb0-f6a67870634d">AWS & Typescript Masterclass - CDK, Serverless, React</a></b>
-        <p>Project with CDK, CloudFormation, Cognito, Lambda, and Amplify</p>
-        <b>Django Rest Framework Udemy course</b>
-        <p>Build a Backend REST API with Python & Django - Advanced</p>
-        <b>Python PCAP Udemy course</b>
-        <p>Pass Certified Associate in Python Programming</p>
-        <b>FrontEndMasters</b>
-        <p>Web developer path</p>
-        <b>Codecademy</b>
-        <p>HTML/CSS</p>
-        <b>Advanced Digital Systems</b>
-        <p>Eafit University MSc. elective course</p>
-        <p>
-          <a href="https://www.linkedin.com/in/victor-camargo-4266684a/">Prof. Victor Camargo</a>
-        </p>
-        <b>Agile Methodologies: SCRUM</b>
-        <p>Eafit University MSc. elective course</p>
-        <a href="https://www.linkedin.com/in/césar-jesús-pardo-calvache-01a82b2a">Prof. Cesar Pardo</a>
-      </section>
-      <section>
-        <h2>LANGUAGES</h2>
-        <!-- languages proficiency -->
-        <b>English</b>
-        <p>C1</p>
-        <b>Spanish</b>
-        <p>Native</p>
-        <b>German</b>
-        <p>A2</p>
-      </section>
-    </article>
-    <article id="mainRight">
-      <section>
-        <h2>ABOUT</h2>
-        <!-- about you -->
-        <p>
-          Software Engineer and aspirant of MSc. in Engineering with more
-          than 3 years of experience and a proven ability to build
-          user-centric applications, manage data effectively, and integrate
-          complex systems. Experience tackling diverse web app development
-          challenges.
-        </p>
-      </section>
-      <section>
-        <h2>WORK EXPERIENCE</h2>
-        <!-- your work experience -->
-        <h3><b>Intermediate Software Engineer</b></h3>
-        <p>SoftServe | sept 2023 - july 2024 (10 months)</p>
-        <p>
-          As a Software Engineer for a Real Estate client, I drove key
-          improvements across both frontend and backend functionalities.
-        </p>
-        <ul>
-          <li>
-            <b>Boosted Search and Data Management</b>: Enhanced search
-            accuracy for complex addresses with <u>Elasticsearch</u> and
-            <u>MongoDB Atlas</u>, automated data cleansing scripts for
-            birthday fields of +10k documents in <u>Atlas</u>, and integrated
-            duplicate address handling in the import microservice.
-          </li>
-          <li>
-            <b>Optimized User Experience</b>: Introduced a comprehensive
-            <u>React Redux</u> modal for improved interaction, implemented
-            clear error messages, and refreshed UI aesthetics with updated
-            dropdown styles.
-          </li>
-          <li>
-            <b>Ensured Microservice Integration and Optimization</b>: Updated
-            <u>GCP pubsub</u> message payloads for seamless microservice
-            communication and fixed pagination issues for smooth API
-            integration with <u>Apigee</u>.
-          </li>
-          <li>
-            <b>Developed Additional Functionality</b>: Built custom
-            <u>Node.js</u> scripts for data manipulation and added new
-            timeline message events to enhance user engagement.
-          </li>
-        </ul>
-        <h3><b>Backend Developer</b></h3>
-        <p>AllTheRooms Inc. | mar 2021 - sept 2023 (2 years and 7 months)</p>
-        <p>
-          Provided full-stack development support for B2C and B2B
-          applications.
-        </p>
-        <ul>
-          <li>
-            <b>Full-stack development</b>: Built new features, conducted
-            testing, and fixed bugs within the B2C and B2B apps using
-            <u>Next.js</u>, <u>GraphQL/Apollo</u>, <u>Express</u>,
-            <u>Passport</u>, and <u>Micro</u> frameworks. Collaborated with
-            the data team by leveraging <u>FastAPI</u> and <u>Python</u> for
-            crawling services.
-          </li>
-          <li>
-            <b>Infrastructure and database management</b>: Implemented changes
-            to the application's infrastructure using <u>AWS</u> and
-            <u>Terraform</u>. Supported modifications to the
-            <u>PostgreSQL</u> database.
-          </li>
-          <li>
-            <b>Business logic updates</b>: Integrated the <u>Stripe SDK</u> to
-            update business logic with new plans, prices, and promotional
-            codes.
-          </li>
-          <li>
-            <b>Analytics tracking</b>: Created a <u>Node.js</u> library with
-            decorators to seamlessly integrate <u>Segment SDK</u> into core
-            services (accounts, auth, and GraphQL).
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>PROJECTS</h2>
-        <h4><b>Retrieval Augmented Generation (RAG) AI Agent Chat</b></h4>
-        <p>
-          Mockup project built with <u>DRF</u>, <u>Django</u> + <u>React</u> and <u>Langchain</u>.
+          AI-powered conversational agent with a data retrieval pipeline, vector embeddings, and
+          <strong>LangChain</strong> orchestration. Built with <strong>Django REST Framework</strong>,
+          <strong>Django</strong>, and <strong>React</strong>.
           <a href="https://github.com/rafaelsanin/django-react-rag-demo">View on GitHub</a>
         </p>
-        <h4><b>Open Source in Python</b></h4>
-        <h4><b>ESCSPKF</b></h4>
+      </div>
+
+      <div class="project-entry">
+        <h4>PWA Barbershop Appointment App</h4>
         <p>
-          An open source project that implements the ESCSPKF algorithm.
-          <a href="https://github.com/rafaelsanin/ESCSPKF">View on GitHub</a>
-        </p>
-        <h4><b>ESCToolbox Python</b></h4>
-        <p>
-          An open source project that implements the ESC algorithm.
-          <a href="https://github.com/rafaelsanin/esctoolbox-python">View on GitHub</a>
-        </p>
-        <h4><b>SIM-PCM-SCM Python</b></h4>
-        <p>
-          An open source project that implements a Li-ion battery simulator.
-          <a href="https://github.com/rafaelsanin/sim-PCM-SCM-python">View on GitHub</a>
-        </p>
-        <h4><b>PWA Barbershop app</b></h4>
-        <p>
-          PWA app build with
-          <u>HTML, CSS, JS, Bootstrap, Node.Js, Firebase</u>.
+          Entrepreneurial project. Built a <strong>Progressive Web App</strong> for appointment scheduling,
+          integrating with <strong>Google Workspace</strong> APIs for calendar sync and notifications.
+          Deployed with <strong>Node.js</strong>, <strong>Firebase</strong>, and <strong>Bootstrap</strong>.
           lumbermanbarbershop.com
         </p>
-        <a href="https://github.com/rafaelsanin?tab=repositories">See more on Github</a>
-      </section>
-    </article>
+      </div>
+
+      <div class="project-entry">
+        <h4>Open Source Python Scientific Computing Toolkits</h4>
+        <p>
+          <strong>ESCSPKF</strong>: Python toolkit implementing the ESCSPKF algorithm for battery state estimation,
+          processing large-scale datasets with <strong>Pandas</strong> and <strong>NumPy</strong> for parameter
+          identification and state prediction.
+          <a href="https://github.com/rafaelsanin/ESCSPKF">View on GitHub</a>
+        </p>
+        <p>
+          <strong>ESCToolbox</strong>: Python implementation of the Equivalent Circuit Model algorithm for battery
+          data analysis and model fitting.
+          <a href="https://github.com/rafaelsanin/esctoolbox-python">View on GitHub</a>
+        </p>
+        <p>
+          <strong>SIM-PCM-SCM</strong>: Li-ion battery simulation engine built in <strong>Python</strong>,
+          processing multi-dimensional electrochemical datasets for modeling and validation.
+          <a href="https://github.com/rafaelsanin/sim-PCM-SCM-python">View on GitHub</a>
+        </p>
+      </div>
+
+      <p><a href="https://github.com/rafaelsanin?tab=repositories">See more on GitHub</a></p>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section>
+      <h2>Education</h2>
+
+      <div class="edu-entry">
+        <strong>Aspirant of MSc in Engineering</strong>
+        <p>Eafit University (scholarship) | 2018 - 2020</p>
+        <p>Relevant coursework: Advanced Digital Systems, Agile Methodologies (SCRUM)</p>
+      </div>
+
+      <div class="edu-entry">
+        <strong>Bachelor of Mechanical Engineering</strong>
+        <p>Eafit University | 2011 - 2016</p>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section>
+      <h2>Certifications</h2>
+
+      <div class="cert-entry">
+        <strong><a href="https://ude.my/UC-20c48e7a-7011-44eb-9fb0-f6a67870634d">AWS &amp; TypeScript Masterclass: CDK, Serverless, React</a></strong>
+        <p>Project with CDK, CloudFormation, Cognito, Lambda, and Amplify</p>
+      </div>
+
+      <div class="cert-entry">
+        <strong>Django REST Framework: Build a Backend REST API with Python &amp; Django (Advanced)</strong>
+      </div>
+
+      <div class="cert-entry">
+        <strong>Python PCAP: Certified Associate in Python Programming</strong>
+      </div>
+
+      <div class="cert-entry">
+        <strong>FrontEndMasters: Web Developer Path</strong>
+      </div>
+
+      <div class="cert-entry">
+        <strong>Codecademy: HTML/CSS</strong>
+      </div>
+    </section>
+
+    <!-- ===== LANGUAGES ===== -->
+    <section>
+      <h2>Languages</h2>
+      <div class="languages-list">
+        <div><b>English</b> C1</div>
+        <div><b>Spanish</b> Native</div>
+        <div><b>German</b> A2</div>
+      </div>
+    </section>
   </main>
 </body>
 
