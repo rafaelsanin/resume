@@ -75,6 +75,18 @@
           <strong>ReAct</strong> and <strong>observational</strong> agent patterns to handle customer payment
           inquiries at scale.
         </li>
+        <li>
+          <strong>Forward deployment engineering</strong> for a Mergers &amp; Acquisitions client: architected and delivered a
+          containerized enterprise search platform on <strong>Azure</strong> enabling secure, AI-powered access to
+          SharePoint document repositories during M&amp;A due diligence workflows.
+          <ul>
+            <li>Configured <strong>Dev Container</strong> and <strong>GitHub Actions CI/CD</strong> pipelines for consistent local and cloud development environments.</li>
+            <li>Deployed <strong>Nginx</strong> as a reverse proxy with streaming support (gevent workers, 120&thinsp;s timeout) fronting a <strong>Dockerized</strong> Flask/Python backend and React frontend.</li>
+            <li>Built an <strong>incremental SharePoint indexing</strong> pipeline (delta-token change tracking) syncing files, metadata, and permissions into <strong>Elasticsearch</strong> with multilingual vector embeddings and <strong>hybrid BM25 + kNN</strong> search for relevance-ranked retrieval.</li>
+            <li>Implemented <strong>SharePoint ACL enforcement</strong> in Elasticsearch queries — per-user, per-group permission filtering — so search results respect source document access controls.</li>
+            <li>Provisioned all <strong>Azure</strong> resources (App Service, Storage, networking) with <strong>Terraform</strong> for reproducible infrastructure-as-code across environments.</li>
+          </ul>
+        </li>
       </ul>
 
       <!-- Entrepreneur -->
