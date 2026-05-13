@@ -54,9 +54,13 @@
           community-driven contributions with editorial review controls.
         </li>
         <li>
-          <strong>Built enterprise integration</strong> between <strong>NICE CXone</strong> contact center
-          platform and NeuralSeek's virtual agent system, implementing multi-turn conversational AI with
-          PII redaction, prompt injection guardrails, and session state management via custom proxy tunnels.
+          <strong>Built enterprise voice agent integration</strong> between <strong>NICE CXone</strong> and
+          NeuralSeek, delivering an appointment-scheduling assistant over VOIP with full <strong>multi-turn
+          dialogue management</strong>: <strong>NLU-driven intent recognition</strong> (FAQ vs. scheduling routing),
+          <strong>slot extraction</strong> for structured fields (date, time, specialty, email) stored in
+          <code>botSessionState</code> for cross-turn continuity, and <strong>AI guardrails</strong> including
+          PII redaction and prompt injection detection. Integrated via custom proxy tunnels passing
+          STT-transcribed input and returning TTS-ready JSON prompt sequences to CXone.
         </li>
         <li>
           <strong>Developed AI-powered demos</strong> using agentic architectures for financial services and
